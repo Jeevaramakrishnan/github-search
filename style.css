@@ -1,0 +1,56 @@
+body {
+    background-color: #f4bb41;
+    color: #ecf0f1;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+.container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+input[type="text"] {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+}
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #f4f4f4;
+    color: #db8a11;
+    cursor: pointer;
+    font-size: 16px;
+}
+button:hover {
+    background-color: #e6ac25;
+}
+#result, #repo-list {
+    margin-top: 20px;
+    text-align: center;
+}
+img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+h2, h3 {
+    margin: 10px 0;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+li {
+    margin: 5px 0;
+}
+a {
+    color: #3498db;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
